@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #fff9f0;
+  --purple: #a855f7;
+  --pink: #ec4899;
+  --yellow: #fbbf24;
+  --green: #34d399;
+  --blue: #60a5fa;
+  --text: #1e1b2e;
+  --muted: #6b7280;
+  --radius: 20px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+}
