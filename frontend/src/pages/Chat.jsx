@@ -56,7 +56,7 @@ export default function Chat() {
           style={{ background: "white", border: "none", borderRadius: "50%", width: "40px", height: "40px", fontSize: "1.2rem", cursor: "pointer" }}
         >←</button>
         <img
-          src={`/src/assets/${personality.image}`}
+          src={`/assets/${personality.image}`}
           alt={personality.name}
           style={{ width: "52px", height: "52px", borderRadius: "50%", objectFit: "cover", border: "3px solid white" }}
         />
