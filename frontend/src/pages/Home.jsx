@@ -64,7 +64,7 @@ export default function Home() {
             }}
           >
             <img
-              src={`/assets/${p.image}`}
+              src={`/${p.image}`}
               alt={p.name}
               style={{ width: "100%", aspectRatio: "1", objectFit: "cover", display: "block" }}
             />
